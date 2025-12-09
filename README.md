@@ -107,7 +107,7 @@ strain ST KL Year Area
 3.  **blast_map_f.tsv** - Filtered BLAST mappings (complete genomes, coverage \>= 80%)
 4.  **evidence.txt** - List of strains with fusion evidence
 5.  **blast_dt_list.txt** - Detailed BLAST data for plotted comparisons
-6.  \*\*hv\_[cluster]\_[strain].pdf\*\* - Circular genome plots showing:
+6.  **hv\_[cluster]\_[strain].pdf** - Circular genome plots showing:
 
 -   Reference plasmid gene annotations
 -   BLAST alignment coverage
@@ -120,3 +120,4 @@ strain ST KL Year Area
 -   The script focuses on PC_499 cluster (pLVPK virulence plasmid) fusion events
 -   Complete genomes and single-contig plasmids are also prioritized for reference
 -   The script uses IRanges for accurate coverage calculation accounting for overlaps
+
